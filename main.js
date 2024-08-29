@@ -1,7 +1,7 @@
 console.log("Welcome to Spotify");
 
 let songIndex = 0;
-let audioElement = new Audio('1.mp3');
+let audioElement = new Audio('./1.mp3');
 let masterPlay = document.getElementById('masterPlay');
 let myProgressBar = document.getElementById('myProgressBar');
 let gif = document.getElementById('gif');
@@ -9,7 +9,7 @@ let masterSongName = document.getElementById('masterSongName');
 let songItems = Array.from(document.getElementsByClassName('songItem'));
 
 let songs = [
-    {songName: "Bahara", filePath: "1.mp3", coverPath: "1.jpg"},
+    {songName: "Bahara", filePath: "./1.jpg", coverPath: "./1.jpg"},
     {songName: "Besabriyaan", filePath: "./2.mp3", coverPath: "./2.jpg"},
     {songName: "Dekha Tenu", filePath: "./3.mp3", coverPath: "./3.jpg"},
     {songName: "Ek Zindagi", filePath: "./4.mp3", coverPath: "./4.jpg"},
